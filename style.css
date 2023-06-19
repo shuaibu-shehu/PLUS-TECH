@@ -109,7 +109,11 @@ header {
     margin-top: 30px;
 }
 
-#about-us .staff-pics{
+#about-us>div{
+    padding: 10px;
+}
+
+#about-us div .staff-pics{
 
     animation:8s slide infinite linear;
     justify-content: center;
@@ -117,15 +121,16 @@ header {
     display: flex;
     gap: 1.4rem;
     padding: 2rem;
-    width: 100%;
+    width: 200%;
+    
     /* animation-direction: alternate; */
 }
-#about-us .staff-pics:hover{
+#about-us div .staff-pics:hover{
     animation-play-state: paused;
 }
 @keyframes slide{
     from {transform : translateX(0%);}
-    to { transform : translateX(-100%)};
+    to { transform : translateX(-200%)};
 }
 #about-us > div .img-box {
     background-repeat: no-repeat;
@@ -136,7 +141,7 @@ header {
     cursor: pointer;
     overflow: hidden;
     z-index: 5;
-   min-width: 250px;
+    min-width: 250px;
    height: 250px;
    box-shadow:  5px 6px 15px rgb(77, 55, 55),-5px -6px 15px rgb(103, 70, 70);
 }
@@ -151,7 +156,7 @@ header {
     background-image: url(images/pic2.jpg);
 }
 .img-box:nth-child(4){
-    background-image: url(images/_MG_2048.jpg);
+    background-image: url(images/pic2.jpg);
 }
 .img-box:nth-child(5){
     background-image: url(images/pic\ 1c.jpg);
@@ -165,7 +170,34 @@ header {
 .img-box:nth-child(8){
     background-image: url(images/pic6.jpg);
 }
-.img-box:nth-child(6){
+.img-box:nth-child(9){
+    background-image: url(images/pic3.jpg);
+}
+.img-box:nth-child(10){
+    background-image: url(images/pic\ 1.jpg);
+}
+.img-box:nth-child(11){
+    background-image: url(images/p.jpg);
+}
+.img-box:nth-child(12){
+    background-image: url(images/pic2.jpg);
+}
+.img-box:nth-child(13){
+    background-image: url(images/_MG_2048.jpg);
+}
+.img-box:nth-child(14){
+    background-image: url(images/pic\ 1c.jpg);
+}
+.img-box:nth-child(15){
+    background-image: url(images/pic3.jpg);
+}
+.img-box:nth-child(16){
+    background-image: url(images/pic5.jpg);
+}
+.img-box:nth-child(17){
+    background-image: url(images/pic6.jpg);
+}
+.img-box:nth-child(18){
     background-image: url(images/pic3.jpg);
 }
 .img-box::before {
@@ -424,6 +456,12 @@ header.active .nav-bar{
     grid-template-columns: 1fr;
 }
 
+#about-us .staff-pics{
+    animation-duration: 10s;
+    animation-delay: 1s;
+
+    
+}
 }
 
 
