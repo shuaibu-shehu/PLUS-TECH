@@ -118,7 +118,7 @@ header {
     gap: 1.4rem;
     padding: 2rem;
     width: 100%;
-    animation-direction: alternate;
+    /* animation-direction: alternate; */
 }
 #about-us .staff-pics:hover{
     animation-play-state: paused;
