@@ -115,22 +115,22 @@ header {
 
 #about-us div .staff-pics{
 
-    animation:8s slide infinite linear;
+    animation:12s slide infinite linear;
     justify-content: center;
     margin:2rem 1rem; 
     display: flex;
     gap: 1.4rem;
     padding: 2rem;
-    width: 200%;
-    
-    /* animation-direction: alternate; */
+    width:calc(250px *6);
+    transition: 1s;
+    /* animation-direction:alternate-reverse; */
 }
 #about-us div .staff-pics:hover{
     animation-play-state: paused;
 }
 @keyframes slide{
     from {transform : translateX(0%);}
-    to { transform : translateX(-200%)};
+    to { transform : translateX(calc(-250px*6))};
 }
 #about-us > div .img-box {
     background-repeat: no-repeat;
@@ -146,60 +146,54 @@ header {
    box-shadow:  5px 6px 15px rgb(77, 55, 55),-5px -6px 15px rgb(103, 70, 70);
 }
 
+
 .img-box:nth-child(1){
-    background-image: url(images/pic\ 1.jpg);
+    background-image: url(images/pic1.jpg);
 }
 .img-box:nth-child(2){
-    background-image: url(images/p.jpg);
+    background-image: url(images/pic\ 2.jpg);
 }
 .img-box:nth-child(3){
-    background-image: url(images/pic2.jpg);
+    background-image: url(images/plus-teamc.jpg);
 }
 .img-box:nth-child(4){
-    background-image: url(images/pic2.jpg);
-}
-.img-box:nth-child(5){
-    background-image: url(images/pic\ 1c.jpg);
-}
-.img-box:nth-child(6){
-    background-image: url(images/pic3.jpg);
-}
-.img-box:nth-child(7){
     background-image: url(images/pic5.jpg);
 }
-.img-box:nth-child(8){
-    background-image: url(images/pic6.jpg);
-}
-.img-box:nth-child(9){
+.img-box:nth-child(5){
     background-image: url(images/pic3.jpg);
 }
+.img-box:nth-child(6){
+    background-image: url(images/pic1.jpg);
+}
+.img-box:nth-child(7){
+    background-image: url(images/pic\ 2.jpg);
+}
+.img-box:nth-child(8){
+    background-image: url(images/plus-teamc.jpg);
+}
+.img-box:nth-child(9){
+    background-image: url(images/pic5.jpg);
+}
 .img-box:nth-child(10){
-    background-image: url(images/pic\ 1.jpg);
+    background-image: url(images/pic3.jpg);
 }
 .img-box:nth-child(11){
-    background-image: url(images/p.jpg);
+    background-image: url(images/pic1.jpg);
 }
 .img-box:nth-child(12){
-    background-image: url(images/pic2.jpg);
+    background-image: url(images/pic\ 2.jpg);
 }
 .img-box:nth-child(13){
-    background-image: url(images/_MG_2048.jpg);
+    background-image: url(images/plus-teamc.jpg);
 }
 .img-box:nth-child(14){
-    background-image: url(images/pic\ 1c.jpg);
+    background-image: url(images/pic5.jpg);
 }
 .img-box:nth-child(15){
     background-image: url(images/pic3.jpg);
 }
-.img-box:nth-child(16){
-    background-image: url(images/pic5.jpg);
-}
-.img-box:nth-child(17){
-    background-image: url(images/pic6.jpg);
-}
-.img-box:nth-child(18){
-    background-image: url(images/pic3.jpg);
-}
+
+
 .img-box::before {
     display: flex;
     align-items: center;
@@ -457,8 +451,8 @@ header.active .nav-bar{
 }
 
 #about-us .staff-pics{
-    animation-duration: 10s;
-    animation-delay: 1s;
+    animation-duration: 20s;
+   
 
     
 }
