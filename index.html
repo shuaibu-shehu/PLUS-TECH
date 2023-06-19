@@ -15,7 +15,7 @@
     <div class="wrapper">
         <header>
             <div class="logo">PLUS TECH +</div>
-            <div class="toggle-menu"></div> 
+            <div class="toggle-menu"></div>
             <ul class="nav-bar">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about-us">ABOUT US</a></li>
@@ -37,46 +37,42 @@
             <div>
                 <div class="staff-pics">
                     <div class="img-box">
-                        <img src="images/_MG_2048c.jpg" alt="" srcset="">
-                        <p>Engr Abba</p>
 
                     </div>
                     <div class="img-box">
-                        <img src="images/SSAc.jpg" alt="" srcset="">
-                        <h1>PLUS-TECH TEAM</h1>
-                        <p>Plus-Tech team</p>
                     </div>
                     <div class="img-box">
-                        <img src="images/_MG_2033c.jpg" alt="" srcset="">
-                        <p>Plus-Tech team</p>
+
                     </div>
                     <div class="img-box">
-                        <img src="images/plus-teamc.jpg" alt="" srcset="">
-                        <h1>PLUS-TECH TEAM</h1>
-                        <p>Plus-Tech team</p>
-                    </div>
-                    <div class="img-box">
-                        <img src="images/_MG_2048c.jpg" alt="" srcset="">
                         <h1>ENGINEER ABBA</h1>
-                        <p><strong>Engr Abba <br><br>Manager</strong><br><br>
-                            A professional engineer with ton years of experience Currently running Plus-Tech</p>
-
+                        <div>
+                            <h1>Engineer Abba</h1>
+                            <p> A professional engineer with <br> ton years of experience Currently running Plus-Tech</p>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <img src="images/SSAc.jpg" alt="" srcset="">
-                        <h1>SUPERVISO</h1>
-                        <p>Engineer kalifa <br> the Superviso <br> </p>
+                        <h1>SENIOR STAFFS</h1>
+                        <div>
+                            <h1>SENIOR STAFFS</h1>
+                            <p> Engr kalifa,Engr muhammad sani <br> and Engr Abba </p>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <img src="images/_MG_2033c.jpg" alt="" srcset="">
+                            <h1>PLUS-TECH TEAM</h1>
+                            <div>
+                                <h1>TEAM</h1>
+                                <p>Staffs of plus-tech who are well prepared team</p>
+                            </div>
+                    </div>
+                    <div class="img-box">
                         <h1>TEAM LEAD</h1>
-                        <p>Superviso/Manage/TeamLead<br><br> Engr kalifa, Engr muhammad sani and Engr abba <br> The team
-                            has been operating the organization for years </p>
+                        <div>
+                            <h1>TEAM LEAD</h1>
+                            <p>SUPERVISOR/MANAGER/TREASURER</p>
+                        </div>
                     </div>
                     <div class="img-box">
-                        <img src="images/plus-teamc.jpg" alt="" srcset="">
-                        <h1>PLUS-TECH TEAM</h1>
-                        <p>Plus-Tech team</p>
                     </div>
                 </div>
             </div>
@@ -86,35 +82,36 @@
             <h1>OUR SERVICE</h1>
             <div class="container">
                 <div class="text-img">
-                        <h1>COMPUTER HARDWARE</h1>
-                        <p>We are specialized in hardware of any <br> kind e.g Sound issue, Graphics Problems and the
-                            mother
-                            body entirely</p>
-                 
+                    <h1>COMPUTER HARDWARE</h1>
+                    <p>We are specialized in hardware of any <br> kind e.g Sound issue, Graphics Problems and the
+                        mother
+                        body entirely</p>
+
                 </div>
                 <div class="text-img">
-           
-                        <h1>Bios programming of any model of PC</h1>
-                        <p>It's worth noting that BIOS programming requires a deep understanding of computer
-                            architecture,
-                            system-level programming, and the specific hardware platform. It is typically carried out by
-                            experienced firmware developers or engineers.</p>
-        
+
+                    <h1>Bios programming of any model of PC</h1>
+                    <p>It's worth noting that BIOS programming requires a deep understanding of computer
+                        architecture,
+                        system-level programming, and the specific hardware platform. It is typically carried out by
+                        experienced firmware developers or engineers.</p>
+
                 </div>
                 <div class="text-img">
-                        <h1>IO replacement of all PC model </h1>
-                        <p>I/O chips or ITE chips are responsible for managing the input and output functions of a
-                            computer system. Replacing an I/O or ITE chip requires technical knowledge and skills.
-                            Trust
-                            us we have the best experts.</p>
+                    <h1>IO replacement of all PC model </h1>
+                    <p>I/O chips or ITE chips are responsible for managing the input and output functions of a
+                        computer system. Replacing an I/O or ITE chip requires technical knowledge and skills.
+                        Trust
+                        us we have the best experts.</p>
                 </div>
                 <div class="text-img">
-                        <h1>Software management</h1>
-                        <p>We have the latest software package of you need. our reponsible staff who looks forward to client satisfaction </p>
+                    <h1>Software management</h1>
+                    <p>We have the latest software package of you need. our reponsible staff who looks forward to client
+                        satisfaction </p>
                 </div>
             </div>
         </section>
-        
+
         <footer id="contact-us">
             <h1>CONTACT US</h1>
             <div>
@@ -138,18 +135,19 @@
         </footer>
     </div>
     <script>
-        var menu=document.querySelector('.toggle-menu');
-        var header=document.querySelector('header');
-        var links=document.querySelectorAll('.nav-bar li a');
-        links.forEach(link=>{
+        var menu = document.querySelector('.toggle-menu');
+        var header = document.querySelector('header');
+        var links = document.querySelectorAll('.nav-bar li a');
+        links.forEach(link => {
             link.addEventListener('click', () => {
-            header.classList.remove('active');
-        })
-    });
-        menu.addEventListener('click',()=>{
-          header.classList.toggle('active')
+                header.classList.remove('active');
+            })
+        });
+        menu.addEventListener('click', () => {
+            header.classList.toggle('active')
         })
     </script>
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </body>
+
 </html>
